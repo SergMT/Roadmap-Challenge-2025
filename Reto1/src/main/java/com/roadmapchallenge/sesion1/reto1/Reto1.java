@@ -18,6 +18,8 @@ public class Reto1 {
         
         Scanner valor = new Scanner(System.in);
         
+        System.out.println("=====================================");
+        
         System.out.println("Ingrese el nombre del paciente:");
         paciente1.nombre = valor.nextLine();
         
@@ -28,5 +30,7 @@ public class Reto1 {
         paciente1.numeroExpediente = valor.nextLine();
         
         paciente1.mostrarInformacion();
+        
+        System.out.println("=====================================");
     }
 }
