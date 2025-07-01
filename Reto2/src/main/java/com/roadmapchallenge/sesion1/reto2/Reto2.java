@@ -5,6 +5,7 @@
 package com.roadmapchallenge.sesion1.reto2;
 
 import com.roadmapchallenge.sesion1.reto2.Classes.Entrada;
+import com.roadmapchallenge.sesion1.reto2.Classes.EntradaRecord;
 
 /**
  *
@@ -14,10 +15,9 @@ public class Reto2 {
 
     public static void main(String[] args) {
         
-        Entrada entrada1 = new Entrada("Knot fest", 1499.99);
+        EntradaRecord entrada1 = new EntradaRecord("Knot fest", 1499.99);
         
-        Entrada entrada2 = new Entrada("La Mole", 699.99);
-        
+        EntradaRecord entrada2 = new EntradaRecord("La Mole", 699.99);
         
         System.out.println("=====================================");
         entrada1.mostrarInformacion();
